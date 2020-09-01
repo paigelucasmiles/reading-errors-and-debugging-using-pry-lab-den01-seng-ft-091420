@@ -11,10 +11,11 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(get_user_input)
-  if get_user_input = 1
+def selection(num)
+  if num = 1
+    binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif get_user_input = 2
+  elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
